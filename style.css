@@ -273,7 +273,9 @@ footer .ques{
     .dis img{
         max-width: 100%;
     }
-    
+    .button a:focus, .button a:active {
+    outline: none;
+  }
    
 }
 @media (max-width:1164px) {
@@ -303,7 +305,9 @@ footer .ques{
         height: 50vh;
         margin-top: 5vh;
     }
-
+    .button a:focus, .button a:active {
+    outline: none;
+  }
 
 }
 @media (max-width:553px) {
@@ -332,7 +336,9 @@ footer .ques{
         font-size: medium;
         margin: 3vh 0px;
     }
-    
+    .button a:focus, .button a:active {
+    outline: none;
+  }
 }
 @media (max-width:425px) {
     body{
@@ -372,6 +378,9 @@ footer .ques{
     .quick p,.icloud p,.history p{
         font-size: 1.7em;
     }
+    .button a:focus, .button a:active {
+    outline: none;
+  }
 }
 
 
