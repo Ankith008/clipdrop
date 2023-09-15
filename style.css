@@ -94,7 +94,9 @@ a{
     background-color:hsl(233, 100%, 69%) ;
     box-shadow: 1px 5px 0px -1px hsl(233, 48%, 38%);
 }
-
+.button a:focus, .button a:active {
+    outline: none;
+  }
 main{
     display: flex;
     justify-content: center;
