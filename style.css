@@ -167,6 +167,9 @@ p{
     max-width: 100%;
     padding:12vh 0px;
 }
+.dis{
+    padding: 13vh 0px;
+}
 .profile {
     display: flex;
     flex-direction: column;
